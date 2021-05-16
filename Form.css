@@ -1,0 +1,49 @@
+.f h2 {color: LightSlateGrey; 
+	font-size: 17pt;
+	text-decoration: underline;
+	font-weight: 600;}
+
+
+.f{ color: #12669e; 
+	font-weight: 600;
+	 Font-size:11pt;
+		}
+
+
+::placeholder {
+  font-family: Palatino, serif;
+
+}
+	
+
+em{
+	color:red;
+}
+
+
+h1{color:#12669e;
+}
+
+
+label { overflow-wrap: break-word;    display: block;  height: 30px;  	
+}
+
+
+.p{
+	
+	color: LightSlateGrey;
+
+}
+
+a{
+		color: #12669e;
+		text-decoration: underline;	
+
+
+	
+}
+
+body {
+	
+text-align="center";
+}

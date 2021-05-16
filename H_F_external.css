@@ -1,0 +1,143 @@
+Header{ 
+       Background-image:url("IMG/logo.svg");/*logo as background-image in the header*/
+       Background-repeat:no-repeat;
+       height: 150px;/*height of the header*/
+       max-Width:100%;/*100% of the page width (full page)*/
+       Background-color: Aliceblue; /*HoneyDew;*/
+       Background-size: 200px 200px;/*logo size*/
+       margin-left:40px;/*space distance from the page border is 40px */
+       
+      }
+      
+	
+	
+	
+	
+.main{padding: 1px 10px;  /*Style the content of the page*/
+      margin-left:70px; /*Same as the width of the sidenav */    
+}
+
+ .menu li {position: relative;}
+
+.dropdown{
+  list-style: none;/*without the style of ul*/
+  position: absolute;
+  Width:100px;/*width of the block*/
+ left:100%; 
+margin-left: -120px;/*Position of submenu*/
+}
+
+.dropdown li{
+  background-color: Navy;
+  position: relative;
+  Display:none;	
+Border:1px solid white; 
+}
+.dropdown li a{
+Color:White;
+text-align:center;
+}
+
+.menu  li:hover .dropdown, .menu li:hover .dropdown li {
+  Opacity:1;/* not transparent at all*/
+Display:block;
+}
+
+
+.sidebar {
+  position: fixed;/*stick in it's place while scrolling*/
+  top: 0;/*start from the top of the page, no space from top*/
+  left: 0;/*no space from left*/
+  height: 100%;/*100% of the page*/
+  width: 70px;/*Width of the side bar*/
+  background-color: Gainsboro;
+  Padding-top:0;/*no space from the top of the sidebar */
+   
+}
+
+.sidebar a {
+   display: block;/*Display the links as block*/
+   padding: 16px;/*the distance between content inside the element is 16px*/
+}
+ 
+.sidebar a:hover {
+  background-color: lightCyan; /*once the cursor comes over(touch) the icon it should display  background color LightCyan */
+}
+
+
+Nav{
+  Float:left;/*stick the nav block in the left of the page*/
+   Padding-top:50px;/*the space from the top is 60 px*/
+   Padding-left:110px;/*110px space from the left side*/
+}
+
+nav ul{
+	display:flex;
+	list-style:none;
+	
+}
+
+
+
+
+nav ul li a {/*style each link*/
+  color: #12669e;/* LightSlateGrey;*/
+  Font-size:15pt;
+  text-decoration: none;/*without the line of the link*/
+  Padding:9px 10px;/*distance between the content(eg Home and gallery)*/
+}
+
+nav ul li a:hover {/*once the cursor comes over(touch) specific menu page it should implements the styling below: */
+
+  Color: LightSkyBlue;
+  
+  }
+
+
+
+
+
+footer {
+       Position:absolute,fixed ;
+       Bottom:0;
+       height: 150px;
+       width:100%;
+       background-color:Aliceblue; /* Gainsboro*/
+       Z-index:1;
+
+  }
+
+    .copyright {
+        position:relative;/*this class position is related to the footer position*/
+       color: LightSlateGrey;;
+        font-size:.8em;
+        Bottom:-10px;
+        Text-align:center;
+ }
+
+    .socialMedia{
+        position:relative;
+        Text-align:center;
+         Top:20px;
+         Font-family:'Courier New', 'Papyrus';
+         Color: LightSlateGrey;
+         Font-size:14pt;
+     
+
+}
+body{
+
+	font-family: Palatino, serif;	
+	 Background-color:rgba(214, 214, 214, 0.51);
+	 margin:0;
+}
+
+
+
+
+
+
+
+
+
+

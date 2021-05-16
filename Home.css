@@ -1,0 +1,41 @@
+
+.Front p {
+	font-size: 80pt;
+	font-family: Impact, fantasy;
+	text-align: center;
+	color:white;
+position: center;
+max-width:100%;
+
+	margin:20px;
+Padding:20px;
+    transform: translate(-17px, 100px);
+
+
+ }
+ em a{color:LightSlateGrey}
+
+.box {
+  	Padding-top:20px;/*the space from the top is 95 px*/
+   Padding-left:190px;/*110px space from the left side*/
+Padding-right:180px;/*110px space from the left side*/
+  text-align: center;
+  color:#12669e;
+  	font-size: 15pt;
+}
+  
+
+ 
+
+.Front {
+    
+  background-image: url("IMG/front22.png");
+  min-height: 400px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+ 
+ 
+  
